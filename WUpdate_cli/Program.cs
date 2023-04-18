@@ -32,5 +32,5 @@ foreach (IUpdateHistoryEntry historyEntry in historyEntryCollection)
     Console.Write(historyEntry.Title + historyEntry.Date + "\n" +historyEntry.Description + "\n" + historyEntry.UpdateIdentity.UpdateID + "\n\n");
 }
 
-Console.WriteLine("Press any Key to end");
+Console.WriteLine("Press any key to end");
 Console.ReadKey();
